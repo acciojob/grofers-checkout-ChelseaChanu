@@ -12,6 +12,7 @@ const getSum = () => {
 	})
 	
 	const td = document.createElement('td');
+	td.setAttribute("id","ans");
     td.innerText = total;
 	priceTable.appendChild(td);
 };
